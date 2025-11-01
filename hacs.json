@@ -1,6 +1,5 @@
 {
   "name": "Vacuum Card",
-  "content_in_root": true,
   "render_readme": true,
-  "filename": "src/vacuum-card.js"
+  "filename": "vacuum-card.js"
 }
