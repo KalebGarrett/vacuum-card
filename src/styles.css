@@ -170,7 +170,6 @@ ha-card {
   align-items: center;
   justify-content: center;
   direction: ltr;
-  margin-left: 0;
 }
 
 .status-text {
@@ -178,7 +177,7 @@ ha-card {
   white-space: nowrap;
   text-overflow: ellipsis;
   overflow: hidden;
-  margin-left: calc(28px + var(--vc-spacing)); /* size + margin of spinner */
+  margin-left: 0 !important;
 }
 
 .status mwc-circular-progress {
